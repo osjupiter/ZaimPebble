@@ -99,6 +99,8 @@ var core = require('core');
       });
       
     }else{
+      core.loadAccessToken();
+      core.loadAccessTokenSecret();
       fetchAmounts();
     }
   });
