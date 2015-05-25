@@ -1,5 +1,5 @@
 var param = module.exports;
 param.consumer={
-  Secret: "aaa",
-  Key:"bbb"
+  Secret: "your secret",
+  Key:"your key"
 };
